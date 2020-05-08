@@ -15,7 +15,7 @@ The cake: Pauls ultimate destination.
 
 **About Paul**
 
-Paul can go Diagonal
+Paul can go Diagonal!
 
 ![diagonal](/readme/diagonal.png)
 
@@ -25,7 +25,7 @@ cardinal steps to cover a diagonal step. That actually 1 step is indeed worth it
 move to the destination cardinally.
 
 
-Paul Jumps
+Paul Jumps!
 
 ![jumps](/readme/jump.png)
 
@@ -50,7 +50,7 @@ Pauls finds the best path to the cake, avoiding the lava nodes.
 
 **g-score**
 
-![g_cost](/readme/g_cost)
+![g_cost](/readme/g_cost.png)
 
 With Self.g_cost uncommented.
 G_score is the total number of points it takes for Paul to reach the cake. The g-score equals the
@@ -59,7 +59,7 @@ number of steps since each node is 1 point.
 
 **h-score**
 
-![g_cost](/readme/h_cost)
+![g_cost](/readme/h_cost.png)
 
 H_cost or h-score calculates the reverse of g-score where it is the total number of points it
 takes from the final destination to paul similar displays none is paul can't be reached from cake.
