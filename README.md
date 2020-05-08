@@ -6,7 +6,8 @@ This a GUI that implements the Astar graph traversal and path search algorithm w
 
 **About the Map**
 
-![map](/readme/swamps.png | =250x250)
+<img src="/readme/swamps.png" height="300" width="300">
+
 
 Lava nodes: nodes that are impossible to step on and cross directly.
 Swamps nodes: nodes that can be step on by Paul but it will cost more points(3).
@@ -15,10 +16,10 @@ The cake: Pauls ultimate destination.
 
 **About Paul**
 
+
+<img src="/readme/diagonal.png" height="300" width="300">
+
 Paul can go Diagonal!
-
-![diagonal](/readme/diagonal.png)
-
 Paul can move diagonally when he finds it impossible to move cardinality. Even though it
 costs more points(3) to move diagonally it is worth it for Paul in many cases that it would take 2
 cardinal steps to cover a diagonal step. That actually 1 step is indeed worth it when paul can not
@@ -27,9 +28,10 @@ move to the destination cardinally.
 
 Paul Jumps!
 
-![jumps](/readme/jump.png)
+<img src="/readme/jump.png" height="300" width="300">
 
-Paul jumps! It is Paul's most impressive ability that he can now pass through lava nodes
+Paul jumps!
+It is Paul's most impressive ability that he can now pass through lava nodes
 that are previously unpassable. Even though a jump would cost Paul 6 steps, Paul will do
 whatever it takes to get to the cake. Because of that and Paul’s new abilities, now the cost will
 NEVER return none.
@@ -43,14 +45,14 @@ By uncommenting different type of cost under the draw function will yield differ
 
 **With nothing uncommented**
 
-![nothinguncommented](/readme/nothinguncommented.jpg)
+<img src="/readme/nothinguncommented.jpg" height="300" width="300">
 
 Pauls finds the best path to the cake, avoiding the lava nodes.
 
 
 **g-score**
 
-![g_cost](/readme/g_cost.png)
+<img src="/readme/g_cost.png" height="300" width="300">
 
 With Self.g_cost uncommented.
 G_score is the total number of points it takes for Paul to reach the cake. The g-score equals the
@@ -59,15 +61,8 @@ number of steps since each node is 1 point.
 
 **h-score**
 
-![g_cost](/readme/h_cost.png)
+<img src="/readme/h_cost.png" height="300" width="300">
 
-H_cost or h-score calculates the reverse of g-score where it is the total number of points it
-takes from the final destination to paul similar displays none is paul can't be reached from cake.
-
-
-**h-score**
-
-![h_cost](/readme/h_cost.png)
 
 H_cost or h-score calculates the reverse of g-score where it is the total number of points it
 takes from the final destination to paul similar displays none is paul can't be reached from cake.
@@ -75,7 +70,7 @@ takes from the final destination to paul similar displays none is paul can't be 
 
 **f-score**
 
-![f_cost](/readme/f_cost.png)
+<img src="/readme/f_cost.png" height="300" width="300">
 
 F-score is displayed only when the cost(points required) is bigger than 18(the minimum number
 of moves Paul requires to reach the cake). Each node is coded with its costs, while the lava
