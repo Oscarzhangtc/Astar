@@ -6,7 +6,7 @@ This a GUI that implements the Astar graph traversal and path search algorithm w
 
 **About the Map**
 
-![map](/readme/swamps.png)
+![map](/readme/swamps.png =250x250)
 
 Lava nodes: nodes that are impossible to step on and cross directly.
 Swamps nodes: nodes that can be step on by Paul but it will cost more points(3).
