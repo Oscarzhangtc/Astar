@@ -37,10 +37,12 @@ whatever it takes to get to the cake. Because of that and Paul’s new abilities
 NEVER return none.
 
 **A star**
+
 Paul will do whatever it takes to get the cake with the help of [A*](http://web.mit.edu/eranki/www/tutorials/search/) search algorithm. Paul the finds the fastest and least costly path to the cake.
 
 
 # Costs and Point Systems
+
 By uncommenting different type of cost under the draw function will yield different effects.
 
 **With nothing uncommented**
@@ -92,4 +94,5 @@ $ python astar.py
 A GUI window will spin up.
 
 **Instructions**
+
 To use this astar GUI/toy, hit the 'l' key to switch to the 'add lava tiles' mode. Then you can click on any cell to add or remove a lava tile from that cell. Hit the spacebar at any time to have Paul plan (or replan) his path, and highlight that path. The cost of the your choice will then be logged.
